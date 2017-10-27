@@ -1,0 +1,70 @@
+// 公共样式
+.test{
+  font-size: 18px;
+}
+h1{
+  font-size: 28px;
+  color: #666666;
+  line-height: 100px
+}
+
+
+.nav_list{
+  width: 100%;
+  height: 44px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background: #ffffff;
+  border-top: 1px solid #cccccc;
+  display: flex;
+  li{
+    flex: 1;
+    list-style: none;
+    text-align: center;
+    a{
+      -webkit-tap-highlight-color: lightblue;
+      display: block;
+      width: 100%;
+      height: 100%;
+      text-decoration: none;
+      line-height: 44px;
+      font-size: 18px;
+      font-weight: bold;
+      color: rgb(3, 167, 243);
+      // text-shadow: 0 2px 4px rgb(97, 218, 251);
+    }
+    .active{
+      text-shadow: 0 2px 4px rgb(97, 218, 251);
+    }
+  }
+}
+
+.order_title{
+  text-align: center;
+}
+
+.btn{
+  display: block;
+  width: 180px;
+  height: 42px;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 10px auto;
+  text-align: center;
+  line-height: 42px;
+  background-color: #19e765;
+  color: #ffffff;
+  filter: drop-shadow(0 1px 3px #44e981)
+}
+.query{
+  font-size: 18px;
+  color: #333333;
+  text-align: left;
+  padding-left: 25px;
+
+}
+
+
+
+
