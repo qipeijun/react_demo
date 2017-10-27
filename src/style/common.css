@@ -51,4 +51,7 @@ h1 {
 .query {
   font-size: 18px;
   color: #333333;
-  text-align: center; }
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px; }
