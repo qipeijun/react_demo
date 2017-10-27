@@ -6,7 +6,7 @@ import "../style/common.css"
 class Order extends Component {
   
   render() {
-    console.log(this.props.match.params);
+    console.log(this.props.match);
     return (
       <div>
         <h1 className="order_title">Order</h1>

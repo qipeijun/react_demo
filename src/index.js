@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter,Switch,Route } from "react-router-dom";
+import { HashRouter ,Switch,Route } from "react-router-dom";
 
 
 import './style/reset.css';
@@ -12,7 +12,7 @@ import Order from './component/order';
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render((
-  <BrowserRouter>
+  <HashRouter >
     <div>
       <Switch>
         <Route path="/index" component={App}></Route>
@@ -20,6 +20,6 @@ ReactDOM.render((
         <Route  component={App}></Route>
       </Switch>
     </div>
-  </BrowserRouter>
+  </HashRouter>
 ), document.getElementById('root'));
 registerServiceWorker();
