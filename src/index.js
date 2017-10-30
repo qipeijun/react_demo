@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { HashRouter ,Switch,Route } from "react-router-dom";
 
-
 import './style/reset.css';
 import './style/index.css';
+
 import App from './App';
 import Order from './component/order';
 
